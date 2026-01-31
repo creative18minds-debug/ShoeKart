@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WebAI Shoes - Step into the Future</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        html {
+            scroll-behavior: smooth;
+        }
+        body {
+            background-color: #0f172a;
+        }
+    </style>
+</head>
+<body class="bg-slate-900 text-white font-sans">
+    <!-- Sticky Navbar -->
+    <nav class="fixed top-0 w-full bg-slate-900 shadow-lg z-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between items-center py-4">
+                <div class="text-2xl font-bold text-orange-500">WebAI Shoes</div>
+                <div class="hidden md:flex space-x-8">
+                    <a href="#home" class="text-white hover:text-orange-500 transition">Home</a>
+                    <a href="#collection" class="text-white hover:text-orange-500 transition">Collection</a>
+                    <a href="#contact" class="text-white hover:text-orange-500 transition">Contact</a>
+                </div>
+                <div class="flex items-center space-x-4">
+                    <i class="fas fa-shopping-cart text-white text-xl hover:text-orange-500 cursor-pointer transition"></i>
+                    <button class="md:hidden text-white focus:outline-none">
+                        <i class="fas fa-bars"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="pt-20 pb-16 px-4 sm:px-6 lg:px-8 min-h-screen flex items-center justify-center bg-gradient-to-b from-slate-900 to-slate-800">
+        <div class="text-center max-w-4xl">
+            <h1 class="text-5xl sm:text-6xl lg:text-7xl font-bold mb-6 text-white">
+                Step into the <span class="text-orange-500">Future</span>
+            </h1>
+            <p class="text-lg sm:text-xl mb-8 text-gray-300">
+                Discover premium quality shoes designed for comfort, style, and innovation. Elevate your every step with our cutting-edge collection.
+            </p>
+            <a href="#collection" class="inline-block bg-orange-500 hover:bg-orange-600 text-white font-semibold py-3 px-8 rounded-lg transition duration-300 transform hover:scale-105">
+                Shop Now
+            </a>
+        </div>
+    </section>
+
+    <!-- Product Grid -->
+    <section id="collection" class="py-16 px-4 sm:px-6 lg:px-8">
+        <div class="max-w-7xl mx-auto">
+            <h2 class="text-3xl sm:text-4xl font-bold text-center mb-12 text-white">Our Collection</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Product Card 1 -->
+                <div class="bg-slate-800 rounded-lg overflow-hidden shadow-lg hover:shadow-2xl transition duration-300 transform hover:scale-105">
+                    <img src="https://images.unsplash.com/photo-1549298916-b41d501d3772?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80" alt="Shoe 1" class="w-full h-64 object-cover">
+                    <div class="p-6">
+                        <h3 class="text-xl font-semibold mb-2 text-white">Urban Runner</h3>
+                        <p class="text-orange-500 font-bold text-lg mb-4">$129.99</p>
+                        <button class="w-full bg-orange-500 hover:bg-orange-600 text-white py-2 rounded-lg transition">
+                            Add to Cart
+                        </button>
+                    </div>
+                </div>
+                <!-- Product Card 2 -->
+                <div class="bg-slate-800 rounded-lg overflow-hidden shadow-lg hover:shadow-2xl transition duration-300 transform hover:scale-105">
+                    <img src="https://images.unsplash.com/photo-1525966222134-fcfa99b8ae77?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80" alt="Shoe 2" class="w-full h-64 object-cover">
+                    <div class="p-6">
+                        <h3 class="text-xl font-semibold mb-2 text-white">Classic Sneaker</h3>
+                        <p class="text-orange-500 font-bold text-lg mb-4">$99.99</p>
+                        <button class="w-full bg-orange-500 hover:bg-orange-600 text-white py-2 rounded-lg transition">
+                            Add to Cart
+                        </button>
+                    </div>
+                </div>
+                <!-- Product Card 3 -->
+                <div class="bg-slate-800 rounded-lg overflow-hidden shadow-lg hover:shadow-2xl transition duration-300 transform hover:scale-105">
+                    <img src="https://images.unsplash.com/photo-1542291026-7eec264c27ff?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80" alt="Shoe 3" class="w-full h-64 object-cover">
+                    <div class="p-6">
+                        <h3 class="text-xl font-semibold mb-2 text-white">Sport Elite</h3>
+                        <p class="text-orange-500 font-bold text-lg mb-4">$149.99</p>
+                        <button class="w-full bg-orange-500 hover:bg-orange-600 text-white py-2 rounded-lg transition">
+                            Add to Cart
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="py-16 px-4 sm:px-6 lg:px-8 bg-slate-800">
+        <div class="max-w-7xl mx-auto">
+            <h2 class="text-3xl sm:text-4xl font-bold text-center mb-12 text-white">Why Choose Us?</h2>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <div class="text-center">
+                    <i class="fas fa-truck text-4xl text-orange-500 mb-4"></i>
+                    <h3 class="text-xl font-semibold mb-2 text-white">Fast Delivery</h3>
+                    <p class="text-gray-300">Get your shoes delivered quickly with our express shipping options.</p>
+                </div>
+                <div class="text-center">
+                    <i class="fas fa-star text-4xl text-orange-500 mb-4"></i>
+                    <h3 class="text-xl font-semibold mb-2 text-white">Premium Quality</h3>
+                    <p class="text-gray-300">Crafted with the finest materials for
